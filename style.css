@@ -71,5 +71,49 @@
 }
 
 .img-1{
-    width: 300px;
+    width: 200px;
+}
+
+.aboutus{
+    height: 300px;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.about-2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 35px;
+    font-weight: bold;    
+}
+
+.aboutus-1{
+    text-align: center;
+}
+
+.slogan-1{
+    font-size: 20px;
+}
+
+.message-1{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+.btn-1{
+    height: 40px;
+    width: 110px;
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btn-1:hover{
+    color: blueviolet;
 }
